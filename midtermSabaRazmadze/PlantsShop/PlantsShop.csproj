@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{70FFBC4B-5441-4A1F-862C-D668A0F0040B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PlantsShop</RootNamespace>
+    <AssemblyName>PlantsShop</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="enums\CRUD.cs" />
+    <Compile Include="enums\Tables.cs" />
+    <Compile Include="forms\CRUD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\CRUD.Designer.cs">
+      <DependentUpon>CRUD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\CRUD_Plant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\CRUD_Plant.Designer.cs">
+      <DependentUpon>CRUD_Plant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\LogInAsManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\LogInAsManager.Designer.cs">
+      <DependentUpon>LogInAsManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\LogInAsUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\LogInAsUser.Designer.cs">
+      <DependentUpon>LogInAsUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\LogInOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\LogInOptions.Designer.cs">
+      <DependentUpon>LogInOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\ManagerPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\ManagerPage.Designer.cs">
+      <DependentUpon>ManagerPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\shop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\shop.Designer.cs">
+      <DependentUpon>shop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\uploadImg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\uploadImg.Designer.cs">
+      <DependentUpon>uploadImg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\UserRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\UserRegistration.Designer.cs">
+      <DependentUpon>UserRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="forms\CRUD.resx">
+      <DependentUpon>CRUD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\CRUD_Plant.resx">
+      <DependentUpon>CRUD_Plant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\LogInAsManager.resx">
+      <DependentUpon>LogInAsManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\LogInAsUser.resx">
+      <DependentUpon>LogInAsUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\LogInOptions.resx">
+      <DependentUpon>LogInOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\ManagerPage.resx">
+      <DependentUpon>ManagerPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\shop.resx">
+      <DependentUpon>shop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\uploadImg.resx">
+      <DependentUpon>uploadImg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\UserRegistration.resx">
+      <DependentUpon>UserRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bamboo image.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,32 @@
+D:\test 2\recipies\bin\Debug\recipies.exe.config
+D:\test 2\recipies\bin\Debug\recipies.exe
+D:\test 2\recipies\bin\Debug\recipies.pdb
+D:\test 2\recipies\bin\Debug\Dapper.dll
+D:\test 2\recipies\bin\Debug\Dapper.SqlBuilder.dll
+D:\test 2\recipies\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\test 2\recipies\bin\Debug\Dapper.xml
+D:\test 2\recipies\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\test 2\recipies\obj\Debug\recipies.csproj.AssemblyReference.cache
+D:\test 2\recipies\obj\Debug\recipies.Form1.resources
+D:\test 2\recipies\obj\Debug\recipies.Properties.Resources.resources
+D:\test 2\recipies\obj\Debug\recipies.csproj.GenerateResource.cache
+D:\test 2\recipies\obj\Debug\recipies.csproj.CoreCompileInputs.cache
+D:\test 2\recipies\obj\Debug\recipies.csproj.CopyComplete
+D:\test 2\recipies\obj\Debug\recipies.exe
+D:\test 2\recipies\obj\Debug\recipies.pdb
+C:\Users\lab322_student14\Desktop\recipies\bin\Debug\recipies.exe.config
+C:\Users\lab322_student14\Desktop\recipies\bin\Debug\recipies.exe
+C:\Users\lab322_student14\Desktop\recipies\bin\Debug\recipies.pdb
+C:\Users\lab322_student14\Desktop\recipies\bin\Debug\Dapper.dll
+C:\Users\lab322_student14\Desktop\recipies\bin\Debug\Dapper.SqlBuilder.dll
+C:\Users\lab322_student14\Desktop\recipies\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\lab322_student14\Desktop\recipies\bin\Debug\Dapper.xml
+C:\Users\lab322_student14\Desktop\recipies\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\lab322_student14\Desktop\recipies\obj\Debug\recipies.csproj.AssemblyReference.cache
+C:\Users\lab322_student14\Desktop\recipies\obj\Debug\recipies.Form1.resources
+C:\Users\lab322_student14\Desktop\recipies\obj\Debug\recipies.Properties.Resources.resources
+C:\Users\lab322_student14\Desktop\recipies\obj\Debug\recipies.csproj.GenerateResource.cache
+C:\Users\lab322_student14\Desktop\recipies\obj\Debug\recipies.csproj.CoreCompileInputs.cache
+C:\Users\lab322_student14\Desktop\recipies\obj\Debug\recipies.csproj.CopyComplete
+C:\Users\lab322_student14\Desktop\recipies\obj\Debug\recipies.exe
+C:\Users\lab322_student14\Desktop\recipies\obj\Debug\recipies.pdb

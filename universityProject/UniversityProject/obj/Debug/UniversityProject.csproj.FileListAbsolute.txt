@@ -1,0 +1,17 @@
+C:\Users\razma\Desktop\universityProject\UniversityProject\obj\Debug\UniversityProject.csproj.AssemblyReference.cache
+C:\Users\razma\Desktop\universityProject\UniversityProject\obj\Debug\UniversityProject.HomePage.resources
+C:\Users\razma\Desktop\universityProject\UniversityProject\obj\Debug\UniversityProject.Forms.LecturerLogin.resources
+C:\Users\razma\Desktop\universityProject\UniversityProject\obj\Debug\UniversityProject.LecturerPortal.resources
+C:\Users\razma\Desktop\universityProject\UniversityProject\obj\Debug\UniversityProject.Forms.ManagerLogin.resources
+C:\Users\razma\Desktop\universityProject\UniversityProject\obj\Debug\UniversityProject.ManagerPortal.resources
+C:\Users\razma\Desktop\universityProject\UniversityProject\obj\Debug\UniversityProject.Forms.StudentLogin.resources
+C:\Users\razma\Desktop\universityProject\UniversityProject\obj\Debug\UniversityProject.StudentPortal.resources
+C:\Users\razma\Desktop\universityProject\UniversityProject\obj\Debug\UniversityProject.Properties.Resources.resources
+C:\Users\razma\Desktop\universityProject\UniversityProject\obj\Debug\UniversityProject.csproj.GenerateResource.cache
+C:\Users\razma\Desktop\universityProject\UniversityProject\obj\Debug\UniversityProject.csproj.CoreCompileInputs.cache
+C:\Users\razma\Desktop\universityProject\UniversityProject\bin\Debug\UniversityProject.exe.config
+C:\Users\razma\Desktop\universityProject\UniversityProject\bin\Debug\UniversityProject.exe
+C:\Users\razma\Desktop\universityProject\UniversityProject\bin\Debug\UniversityProject.pdb
+C:\Users\razma\Desktop\universityProject\UniversityProject\obj\Debug\UniversityProject.exe
+C:\Users\razma\Desktop\universityProject\UniversityProject\obj\Debug\UniversityProject.pdb
+C:\Users\razma\Desktop\universityProject\UniversityProject\obj\Debug\UniversityProject.Forms.CRUD.resources
